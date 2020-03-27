@@ -1,0 +1,142 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  /*height: 100%;*/
+  width: 100%;
+  display: flex;
+  margin: auto 0;
+}
+
+.main{
+  width: 58%;
+  background-image: url(./images/bg-pattern-desktop.svg);
+}
+
+.wapper-left{
+  padding-left: 165px;
+  padding-right: 250px;
+}
+
+.image-section{
+  width: 42%;
+}
+
+.responsive-img{
+  height: auto;
+  width: 100%;
+}
+
+.logo{
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 25.25px;
+}
+
+.heading-red{
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+
+.heading-dark-red{
+  color: hsl(0, 6%, 24%);
+}
+
+.text-red{
+  color: hsl(0, 36%, 70%);
+}
+
+.formInput{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid hsl(0, 36%, 70%);
+  
+  border-radius: 50px;
+  padding-left: 30px;
+  height: 55px;
+  
+}
+
+.email-input{
+  flex-grow: 2;
+  border: none;
+  
+  font-size: 1rem;
+  
+ 
+}
+
+#email-submit{
+  height: 55px;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(0, 93%, 68%);
+  width: 25%;
+  cursor: pointer;
+}
+
+#email-submit:hover{
+  background-color: hsl(0, 36%, 70%);
+}
+
+
+
+/* form.formInput{
+  position: relative;
+  display: inline-block;
+}
+
+.email-input{
+  position: relative;
+  border-radius: 50px;
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid hsl(0, 36%, 70%);
+  width: 95%;
+  height: 55px;
+  color: hsl(0, 36%, 70%);
+  font-size: 1rem;
+  padding-left: 30px;
+}
+
+.formInput button[name=submit]{
+  position: absolute;
+  border-radius: 50px;
+  border: none;
+  height: 55px;
+  top: 0px;
+  right: 0px;
+  width: 5%;
+  background-color: hsl(0, 93%, 68%);
+  display: block;
+} */
+
+
+
+
+
+/* .footer{
+  
+}
+
+@media  */
+
+@media (max-width: 640px){
+
+  .logo{
+    padding: 30px;
+  }
+
+}
