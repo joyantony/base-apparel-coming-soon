@@ -142,6 +142,18 @@ form.error small {
 	display: block;
 }
 
+.signup {
+	color: #000000;
+	display: none;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+form.success p{
+	display: block;
+}
+
+
 @media screen and (max-width: 600px){
 
 	.logo {

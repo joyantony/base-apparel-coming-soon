@@ -8,9 +8,10 @@ form.addEventListener('submit', e=>{
 
   if(!validateEmail(emailVal)) {
     form.classList.add('error');
+    form.classList.remove('success');
   }else {
     form.classList.remove('error');
-    document.body.innerHTML= '<div style="display:flex; align-items:center; justify-content: center;"><h1>Thank You!</h1></div>'
+    form.classList.add('success');
   }
 });
 
