@@ -7,7 +7,7 @@ form.addEventListener('submit', e=>{
   const emailVal = email.value;
 
   if(!validateEmail(emailVal)) {
-    form.classList.add('error';)
+    form.classList.add('error');
   }else {
     form.classList.remove('error');
     document.body.innerHTML= '<div style="display:flex; align-items:center; justify-content: center;"><h1>Thank You!</h1></div>'
